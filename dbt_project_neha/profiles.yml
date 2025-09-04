@@ -1,0 +1,33 @@
+dbt_proj_neha:
+  outputs:
+    dev:
+      catalog: dbt_project
+      host: dbc-cf2473f1-277b.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/f0e658ad5e75c2a4
+      schema: default
+      threads: 1
+      token: dapia7f8d89800a270ddecfd6eeaf7865566
+      type: databricks
+  target: dev
+dbt_project_neha:
+  outputs:
+    dev:
+      catalog: dbt_project
+      host: dbc-cf2473f1-277b.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/f0e658ad5e75c2a4
+      schema: default
+      threads: 1
+      token: dapia7f8d89800a270ddecfd6eeaf7865566
+      type: databricks
+  target: dev
+neha_dbt_proj:
+  outputs:
+    dev:
+      catalog: dbt_project
+      host: dbc-cf2473f1-277b.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/f0e658ad5e75c2a4
+      schema: source
+      threads: 1
+      token: dapia7f8d89800a270ddecfd6eeaf7865566
+      type: databricks
+  target: dev

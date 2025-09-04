@@ -1,0 +1,70 @@
+[0m11:06:47.163090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369B5A4F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369D558F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369D5581F0>]}
+
+
+============================== 11:06:47.190918 | d11a782d-2125-4293-b0bb-45426243c78e ==============================
+[0m11:06:47.190918 [info ] [MainThread]: Running with dbt=1.10.10
+[0m11:06:47.191344 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'quiet': 'False', 'partial_parse': 'True', 'empty': 'None', 'log_path': 'logs', 'invocation_command': 'dbt init', 'write_json': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'target_path': 'None', 'profiles_dir': 'C:\\Users\\rneha\\.dbt', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'debug': 'False', 'version_check': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m11:07:28.737677 [debug] [MainThread]: Starter project path: C:\Users\rneha\OneDrive\Desktop\neha_dbt_project\.venv\lib\site-packages\dbt\include\starter_project
+[0m11:07:28.846467 [info ] [MainThread]: 
+Your new dbt project "dbt_project_neha" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:07:28.847465 [info ] [MainThread]: Setting up your profile.
+[0m11:07:35.401032 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:07:35.401032 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:07:35.402418 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:09:41.624699 [info ] [MainThread]: Profile dbt_project_neha written to C:\Users\rneha\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:09:41.626476 [debug] [MainThread]: Command `dbt init` succeeded at 11:09:41.626476 after 174.55 seconds
+[0m11:09:41.627482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369B5A4F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369FB4E040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369D5C52B0>]}
+[0m11:09:41.627482 [debug] [MainThread]: Flushing usage events
+[0m11:09:42.099922 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:10:29.247709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020405D44FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020406CD8F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020406CD8190>]}
+
+
+============================== 11:10:29.258051 | 9a3e8229-a3cd-474d-b44b-9d54d27e4c04 ==============================
+[0m11:10:29.258051 [info ] [MainThread]: Running with dbt=1.10.10
+[0m11:10:29.260073 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'partial_parse': 'True', 'warn_error': 'None', 'empty': 'None', 'log_path': 'logs', 'invocation_command': 'dbt debug', 'write_json': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'target_path': 'None', 'profiles_dir': 'C:\\Users\\rneha\\.dbt', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'debug': 'False', 'version_check': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m11:10:29.567530 [info ] [MainThread]: dbt version: 1.10.10
+[0m11:10:29.568805 [info ] [MainThread]: python version: 3.9.13
+[0m11:10:29.569804 [info ] [MainThread]: python path: C:\Users\rneha\OneDrive\Desktop\neha_dbt_project\.venv\Scripts\python.exe
+[0m11:10:29.570800 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m11:10:33.348054 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:10:33.349104 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:10:33.349104 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:10:43.547869 [info ] [MainThread]: Using profiles dir at C:\Users\rneha\.dbt
+[0m11:10:43.548878 [info ] [MainThread]: Using profiles.yml file at C:\Users\rneha\.dbt\profiles.yml
+[0m11:10:43.549886 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\rneha\OneDrive\Desktop\neha_dbt_project\dbt_project.yml
+[0m11:10:43.550884 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m11:10:43.555892 [debug] [MainThread]: Command `dbt debug` failed at 11:10:43.554891 after 14.44 seconds
+[0m11:10:43.557793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020405D44FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020406D60C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020421BA5E80>]}
+[0m11:10:43.558803 [debug] [MainThread]: Flushing usage events
+[0m11:10:44.017921 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:39:41.564836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E40C35F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E41BC8340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E41BC8130>]}
+
+
+============================== 15:39:41.569321 | 1cca7458-aeae-4ca1-9ead-0d056bf4eb6d ==============================
+[0m15:39:41.569321 [info ] [MainThread]: Running with dbt=1.10.10
+[0m15:39:41.570326 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'partial_parse': 'True', 'quiet': 'False', 'empty': 'False', 'invocation_command': 'dbt run', 'log_path': 'logs', 'write_json': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'target_path': 'None', 'profiles_dir': 'C:\\Users\\rneha\\.dbt', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'debug': 'False', 'version_check': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m15:39:41.570326 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\rneha\OneDrive\Desktop\neha_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:39:41.571832 [debug] [MainThread]: Command `dbt run` failed at 15:39:41.571832 after 0.10 seconds
+[0m15:39:41.571832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E40C35F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E41BC8130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E41BC8400>]}
+[0m15:39:41.573866 [debug] [MainThread]: Flushing usage events
+[0m15:39:42.044464 [debug] [MainThread]: An error was encountered while trying to flush usage events
