@@ -28,6 +28,6 @@ neha_dbt_proj:
       http_path: /sql/1.0/warehouses/f0e658ad5e75c2a4
       schema: source
       threads: 1
-      token: dapi9555726793ccbb22c969a034d10d484d
+      token: dapia7f8d89800a270ddecfd6eeaf7865566
       type: databricks
   target: dev
