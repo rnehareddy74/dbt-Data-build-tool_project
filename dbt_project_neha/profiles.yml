@@ -4,7 +4,7 @@ dbt_proj_neha:
       catalog: dbt_project
       host: dbc-cf2473f1-277b.cloud.databricks.com
       http_path: /sql/1.0/warehouses/f0e658ad5e75c2a4
-      schema: default
+      schema: source
       threads: 1
       token: dapia7f8d89800a270ddecfd6eeaf7865566
       type: databricks
@@ -15,7 +15,7 @@ dbt_project_neha:
       catalog: dbt_project
       host: dbc-cf2473f1-277b.cloud.databricks.com
       http_path: /sql/1.0/warehouses/f0e658ad5e75c2a4
-      schema: default
+      schema: source
       threads: 1
       token: dapia7f8d89800a270ddecfd6eeaf7865566
       type: databricks

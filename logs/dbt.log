@@ -68,3 +68,33 @@ Runtime Error
 [0m15:39:41.571832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E40C35F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E41BC8130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E41BC8400>]}
 [0m15:39:41.573866 [debug] [MainThread]: Flushing usage events
 [0m15:39:42.044464 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:09:31.610946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280C6805F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280C8799310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280C8799100>]}
+
+
+============================== 15:09:31.615187 | 76722497-3f1e-4fe1-8613-ecd96437ca6e ==============================
+[0m15:09:31.615187 [info ] [MainThread]: Running with dbt=1.10.10
+[0m15:09:31.617187 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'partial_parse': 'True', 'quiet': 'False', 'profiles_dir': 'C:\\Users\\rneha\\.dbt', 'log_path': 'logs', 'invocation_command': 'dbt run --select models/silver', 'log_format': 'default', 'write_json': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'target_path': 'None', 'empty': 'False', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'debug': 'False', 'version_check': 'True', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m15:09:31.617187 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\rneha\OneDrive\Desktop\neha_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:09:31.619365 [debug] [MainThread]: Command `dbt run` failed at 15:09:31.618368 after 0.10 seconds
+[0m15:09:31.619365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280C6805F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280C8799100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280C87993D0>]}
+[0m15:09:31.619365 [debug] [MainThread]: Flushing usage events
+[0m15:09:32.091166 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:12:00.053933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C4A691040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C4C619340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C4C619130>]}
+
+
+============================== 15:12:00.057935 | 485309d7-7276-47d4-902d-20b9786e8fe6 ==============================
+[0m15:12:00.057935 [info ] [MainThread]: Running with dbt=1.10.10
+[0m15:12:00.057935 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'partial_parse': 'True', 'empty': 'False', 'quiet': 'False', 'log_path': 'logs', 'invocation_command': 'dbt run --select models/silver', 'log_format': 'default', 'write_json': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'target_path': 'None', 'profiles_dir': 'C:\\Users\\rneha\\.dbt', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True', 'debug': 'False', 'version_check': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m15:12:00.058934 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\rneha\OneDrive\Desktop\neha_dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:12:00.060937 [debug] [MainThread]: Command `dbt run` failed at 15:12:00.060937 after 0.09 seconds
+[0m15:12:00.061966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C4A691040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C4C619130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C4C619400>]}
+[0m15:12:00.061966 [debug] [MainThread]: Flushing usage events
+[0m15:12:00.595470 [debug] [MainThread]: An error was encountered while trying to flush usage events

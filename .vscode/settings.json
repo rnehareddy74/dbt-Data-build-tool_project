@@ -4,5 +4,6 @@
         "\"files.associations\": {   \"*.sql\": \"jinja-sql\" }",
         "\"files.associations\": {   \"*.yml\": \"jinja-yaml\" }"
     ],
-    "dbt.enableNewLineagePanel": true
+    "dbt.enableNewLineagePanel": true,
+    "dbt.perspectiveTheme": "Vintage"
 }
